@@ -12,7 +12,9 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "mediaCover": {
       "model": "file",
@@ -30,6 +32,9 @@
     },
     "publishedAt": {
       "type": "date"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
