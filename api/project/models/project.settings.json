@@ -36,6 +36,9 @@
     },
     "tech": {
       "type": "json"
+    },
+    "links": {
+      "type": "json"
     }
   }
 }
