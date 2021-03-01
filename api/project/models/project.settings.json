@@ -34,10 +34,7 @@
     "featured": {
       "type": "boolean"
     },
-    "tech": {
-      "type": "json"
-    },
-    "links": {
+    "techAndLinks": {
       "type": "json"
     }
   }
